@@ -3,7 +3,7 @@ var homedir = require('os-homedir')
 var raf = require('random-access-file')
 
 module.exports = function (dir) {
-  if (!dir) dir = path.join(homedir(), '.dat', 'secret_keys')
+  if (!dir) dir = path.join(homedir(), '.dwebx', 'secret_keys')
   return function (name, opts) {
     var discKey = opts.discoveryKey
     if (!discKey) throw new Error('Discovery key required')

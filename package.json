@@ -1,27 +1,27 @@
 {
-  "name": "dat-secret-storage",
-  "description": "store secret key for dat in home dir",
-  "version": "4.0.0",
+  "name": "dwebx-secret-storage",
+  "description": "store secret key for dwebx in home dir",
+  "version": "1.0.0",
   "author": "Joe Hand <joe@hand.email>",
   "bugs": {
-    "url": "https://github.com/joehand/dat-secret-storage/issues"
+    "url": "https://github.com/joehand/dwebx-secret-storage/issues"
   },
   "devDependencies": {
-    "hyperdrive": "^9.0.0",
+    "ddrive": "git://github.com/DistributedWeb/ddrive.git#0253e97b45d83aa74498acecc1fc85fb74427dc8",
     "random-access-memory": "^2.3.0",
     "standard": "*",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/joehand/dat-secret-storage",
+  "homepage": "https://github.com/joehand/dwebx-secret-storage",
   "keywords": [
-    "dat"
+    "dwebx"
   ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joehand/dat-secret-storage.git"
+    "url": "https://github.com/joehand/dwebx-secret-storage.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
