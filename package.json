@@ -1,10 +1,10 @@
 {
   "name": "dwebx-secret-storage",
-  "description": "store secret key for dwebx in home dir",
+  "description": "Default storage provider for dDatabase < 3.00 private keys.",
   "version": "1.0.0",
-  "author": "Joe Hand <joe@hand.email>",
+  "author": "Peeps Labs <peepslabs.gmail.com>",
   "bugs": {
-    "url": "https://github.com/joehand/dwebx-secret-storage/issues"
+    "url": "https://github.com/distributedweb/dwebx-secret-storage/issues"
   },
   "devDependencies": {
     "ddrive": "git://github.com/DistributedWeb/ddrive.git#0253e97b45d83aa74498acecc1fc85fb74427dc8",
@@ -13,7 +13,7 @@
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/joehand/dwebx-secret-storage",
+  "homepage": "https://dwebx.org",
   "keywords": [
     "dwebx"
   ],
@@ -21,7 +21,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joehand/dwebx-secret-storage.git"
+    "url": "https://github.com/distributedweb/dwebx-secret-storage.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
